@@ -1,0 +1,49 @@
+body{
+    background-color: #78866B;
+    margin:0px;
+    height: 100rem;
+}
+nav{
+    background-color: #0B6623;
+    display:flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
+    border-bottom-width: 3px;
+    border-bottom-style:solid;
+    border-color:#afce93;
+
+}
+.Nav-bar{
+    text-align: center;
+    min-width:5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    
+}
+.Nav-bar:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+#CV{
+    background-color: #043511;
+    border-radius: 5px;
+    color: beige;
+}
+#CV:hover{
+    cursor: pointer;
+}
+.parent{
+    display:flex;
+    flex-flow:wrap;
+    justify-content: space-evenly;
+}
+.Project{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: orangered;
+    
+}
