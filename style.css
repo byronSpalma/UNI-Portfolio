@@ -1,25 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-color: #78866B;
     margin:0px;
-    height: 100rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
 }
 nav{
     background-color: #0B6623;
     display:flex;
     justify-content: space-evenly;
     height: 5rem;
+    min-width: 2rem;
     align-items: center;
-    border-bottom-width: 3px;
+    border-bottom-width: 0.2rem;
     border-bottom-style:solid;
     border-color:#afce93;
 
 }
 .Nav-bar{
     text-align: center;
-    min-width:5rem;
+    min-width: 2rem;
+    max-width: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+    text-decoration: none;
+    color:black;
     
+    
+}
+p{
+    font-size: 2rem;
+    font-weight:600;
+}
+p:hover{
+    cursor: default;
 }
 .Nav-bar:hover{
     font-weight: 700;
@@ -29,11 +48,44 @@ nav{
     background-color: #043511;
     border-radius: 5px;
     color: beige;
+    min-height: 30px;
 }
 #CV:hover{
     cursor: pointer;
+    font-weight: bold;
+    
 }
-.parent{
+#header{
+    display:flex; 
+    justify-content: center;
+   
+}
+.text-in-header{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: #0B6623;
+    height: fit-content;
+    min-width: 250px;
+    max-width: fit-content;
+    border-width: 0.2rem;
+    border-color: #afce93;
+    border-style:solid;
+    align-self:center;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+h3{
+    margin-top:0%;
+
+}
+img{
+    margin-bottom: 1rem;
+
+}
+.project-parent{
     display:flex;
     flex-flow:wrap;
     justify-content: space-evenly;
@@ -44,7 +96,9 @@ nav{
     justify-content:center;
     min-height: 100px;
     min-width: 100px;
-    background-color: orangered;
+    background-color: rgb(74, 159, 74);
     border-radius: 5px;
+    text-decoration: none;
+    color: black;
     
 }
